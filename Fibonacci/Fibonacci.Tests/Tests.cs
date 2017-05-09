@@ -4,7 +4,7 @@ namespace Fibonacci.Tests
 {
     public class Tests
     {
-        [Fact]
+        [Fact] // fact is a keyword used by xunit
         public void Get_5th_number()
         {
             var generator = new FibonacciGenerator();
