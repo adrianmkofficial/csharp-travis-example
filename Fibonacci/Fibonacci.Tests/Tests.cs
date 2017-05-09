@@ -9,7 +9,7 @@ namespace Fibonacci.Tests
         {
             var generator = new FibonacciGenerator();
 
-            Assert.Equal(generator.Fibonacci(5), 5);
+            Assert.Equal(generator.Fibonacci(5), 15);
         }
 
         [Fact]
